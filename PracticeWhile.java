@@ -8,7 +8,7 @@ public class PracticeWhile {
         int num = 100;
         while (num >= 0){
             System.out.println(num);
-            num -= 1;
+            num --;
         }
     }
 }

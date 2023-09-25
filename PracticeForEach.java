@@ -6,8 +6,8 @@ public class PracticeForEach {
 //    Java ファイル PracticeForEach を作成して、その中に記述して下さい。
 //    社員名をまとめたリストである、変数名 list を出力して下さい。（社員名は姓名どちらかあればOK、社員名は何でもいいです）
 //    コンソールには最低 10 人出力して下さい。
-        String list[] = {"Hamano", "Fukuo", "Tahara", "Kuranari", "Maemura", "Shigenaga", "Stanley", "Mike", "Jacob", "Messi", "Ronaldo", "Kubo", "Endo", "Tanaka", "Kagawa", "Honda", "Toritani", "Otani"};
-        for (String name: list){
+        String[] list = {"Hamano", "Fukuo", "Tahara", "Kuranari", "Maemura", "Shigenaga", "Stanley", "Mike", "Jacob", "Messi", "Ronaldo", "Kubo", "Endo", "Tanaka", "Kagawa", "Honda", "Toritani", "Otani"};
+        for (String name : list) {
             System.out.println(name);
         }
     }
